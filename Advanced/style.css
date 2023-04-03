@@ -1,0 +1,28 @@
+menu{
+    display: flex;
+    height: 100vh;
+    width: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+}
+items{
+    height: 350px;
+    width: 300px;
+    border-radius: 20px;
+    background-color: #00000075;
+    border-style: double;
+    text-align: center;
+    backdrop-filter: blur(34px);
+}
+body{
+    background-image: url("/images/SL-072520-32870-33.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+items img{
+width: 200px;
+}
